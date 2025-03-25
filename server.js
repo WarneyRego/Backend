@@ -27,7 +27,7 @@ app.use(express.json());
 const asaasApi = axios.create({
   baseURL: 'https://sandbox.asaas.com/api/v3',
   headers: {
-    'access_token': process.env.ASAAS_API_KEY,
+    'access_token': '$aact_hmlg_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OjI5NDY2NWIxLWRjZDUtNDliNi1iZWZiLWU5YzE0ZTZhY2YzYjo6JGFhY2hfMWUwMDdhNjctNDQyMi00NmZlLWIwYTYtNmU5YjRkNmY2ODlm',
     'Content-Type': 'application/json'
   }
 });
