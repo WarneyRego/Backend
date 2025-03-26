@@ -25,7 +25,7 @@ app.use(cors({
 app.use(express.json());
 
 const asaasApi = axios.create({
-  baseURL: 'https://sandbox.asaas.com/api/v3',
+  baseURL: 'https://www.asaas.com/api/v3',
   headers: {
     'access_token': '$aact_prod_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmIwNTM5ZDFkLWZmYTctNDQ5My05MzNmLTk0YjlkY2Q3YWU4Nzo6JGFhY2hfYjJjOTFkZjUtYTcyZC00ZGI1LWIzMzctZGYyOWY2OTI3ZWIz',
     'Content-Type': 'application/json'
